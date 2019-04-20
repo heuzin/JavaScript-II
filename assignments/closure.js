@@ -1,6 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function add(x, y) {
+  let age = x + y;
+  console.log(x + y);
+
+  function name (name) {
+    console.log(`My name is ${name}, and i have ${age} years old`)
+  }name("Matheus");
+}
+add(2,3);
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
